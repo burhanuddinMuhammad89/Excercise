@@ -38,8 +38,10 @@ public class Main {
 
 //        GreatestCommonDivisor greatestCommonDivisor = new GreatestCommonDivisor();
 //        System.out.println(greatestCommonDivisor.gcdProcessIteration(24,18));
-          LinearSearch linearSearch = new LinearSearch();
+//          LinearSearch linearSearch = new LinearSearch();
+          BinarySearch binarySearch = new BinarySearch();
           int[] myArray1 = {1, 5, -3, 10, 55, 100};
-          System.out.println(linearSearch.recursiveFind(myArray1, 10, 0));
+//          System.out.println(linearSearch.recursiveFind(myArray1, 10, 0));
+          System.out.println(binarySearch.findByRecursive(myArray1,104,0, myArray1.length - 1));
     }
 }
